@@ -1,0 +1,143 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #007cf0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #222;
+  color: white;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #00dfd8;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #007cf0, #00dfd8);
+  color: white;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+}
+
+.hero .btn {
+  margin-top: 20px;
+  background-color: white;
+  color: #007cf0;
+  padding: 12px 25px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #007cf0;
+  color: white;
+  box-shadow: 0 0 10px #00dfd8;
+}
+
+/* Sections */
+.content {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+/* Project Cards */
+.project-card {
+  background: white;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: 500;
+  color: #007cf0;
+}
+
+/* About Page */
+.profile-pic {
+  display: block;
+  max-width: 200px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+/* Contact Page */
+.contact ul li {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
+.contact a:hover {
+  color: #00bfa6;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222;
+  color: white;
+  margin-top: 3rem;
+}
+footer a {
+  color: #00dfd8;
+  transition: color 0.3s;
+}
